@@ -1,4 +1,4 @@
-#Generating html document using Jinja2 tenplate
+#Generating html document using Jinja2 template
 from jinja2 import Template
 
 indexData={"name":"Satvik Chandrakar","ID":"21f1000344","About Myself":""" Hello! I am from Raipur, Chhattisgarh. 
