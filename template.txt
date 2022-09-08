@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+  <body>
+    <div id="header">
+        <a href="academics.html">Academics</a> |
+        <a href="personal.html">Personal</a> |
+        <a href="contact.html">Contact</a> | 
+        <a href="resume.html">Resume</a>
+    </div> 
+    
+    <div id="main">
+        <h1>
+             Student Data 
+        </h1>
+
+        <p>
+            Name : {{ indexData["name"] }}
+        </p>
+
+        <p>
+            Id : {{  indexData["ID"] }}
+        </p>
+
+        <p>
+            About Myself : {{  indexData["About Myself"] }}
+        </p>
+    </div>
+
+    <div id="footer">
+       <h5>
+           Satvik Chandrakar | 2020 Batch | &copy;Copyright 2022
+       </h5>
+    </div>
+
+  </body>
+</html>
